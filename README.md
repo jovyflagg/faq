@@ -1,6 +1,6 @@
 ### Project: FAQ Page w/ Accordion
 
-![Alt text](image.png)
+![1688327000074](image/README/1688327000074.png)
 
 #### Link to Github Page
 
