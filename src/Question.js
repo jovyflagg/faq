@@ -7,7 +7,7 @@ const Question = ({title, info }) => {
     <article className='question'>
       <header >
         <h4>{title}</h4>
-        <button className='btn' onClick={() => setToggleOpen(!toggleOpen)}>{toggleOpen ? `-` : `+`}</button>
+        <button className='btn' onClick={() => setToggleOpen(!toggleOpen)}>{toggleOpen ? <AiOutlineMinus /> : <AiOutlinePlus />}</button>
       </header>
         <p>{toggleOpen ? info : ``} </p>
     </article>
